@@ -1,0 +1,7 @@
+c:\users\cathal\documents\visual studio 2010\Projects\Hyperion\Hyperion\bin\Debug\Hyperion.exe
+c:\users\cathal\documents\visual studio 2010\Projects\Hyperion\Hyperion\bin\Debug\Hyperion.pdb
+c:\users\cathal\documents\visual studio 2010\Projects\Hyperion\Hyperion\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\cathal\documents\visual studio 2010\Projects\Hyperion\Hyperion\obj\x86\Debug\Hyperion.exe
+c:\users\cathal\documents\visual studio 2010\Projects\Hyperion\Hyperion\obj\x86\Debug\Hyperion.pdb
+C:\Users\Cathal\Documents\Visual Studio 2010\Projects\That_Which_Does_Not_Die\Hyperion\obj\x86\Debug\Hyperion.exe
+C:\Users\Cathal\Documents\Visual Studio 2010\Projects\That_Which_Does_Not_Die\Hyperion\obj\x86\Debug\Hyperion.pdb
