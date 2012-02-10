@@ -1,9 +1,8 @@
 ﻿               
-			   
 			   Below is a map of what room is where.
-			   A number inside a box (ie:[1]) = a room number
-			   Shaded (ie:XXX) = an unwalkable room (no access)
-			     0   1   2   3   4   5   6   7   8   9       --> Y-AXIS
+               A number inside a box (ie:[1]) = a room number
+               Shaded (ie:XXX) = an unwalkable room (no access)
+                 0   1   2   3   4   5   6   7   8   9       --> Y-AXIS
                +---+---+---+---+---+---+---+---+---+---+
              0 | 1 + 2 + 3 + 4 +XXX+ 5 +XXX+XXX+XXX+ 6 |
                +---+---+---+---+---+---+---+---+---+---+
@@ -26,7 +25,7 @@
              9 |56 +57 +58 +59 +60 +61 +XXX+62 +XXX+63 |
                +---+---+---+---+---+---+---+---+---+---+
 
-			 |
-			 V
+             |
+             V
 
-			 X-AXIS
+             X-AXIS
