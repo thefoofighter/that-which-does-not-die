@@ -9,6 +9,7 @@ namespace Twdnd
     {
         private string title;
         private string description;
+        private string speak;
 
         private List<string> exits;
         private List<Item> items;
@@ -19,7 +20,11 @@ namespace Twdnd
             get { return title; }
             set { title = value; }
         }
-
+        public string Speak
+        {
+            get { return speak; }
+            set { speak = value; }
+        }
         public string Description
         {
             get { return description; }
@@ -46,15 +51,17 @@ namespace Twdnd
             //Debug
             TextBuffer.Add("Debug_Coordinates : "+this.GetCoordinates()+"\n");
             //////////////
+            TextBuffer.Add(this.GetRoomDescText());
             TextBuffer.Add(this.description);
+            TextBuffer.Add(this.GetPlayerText());
+            TextBuffer.Add(this.speak);
             TextBuffer.Add(this.GetItemList());
-            TextBuffer.Add(this.GetExitList());
-            
+            TextBuffer.Add(this.GetExitList());           
         }
 
         public void ShowTitle()
         {
-            TextBuffer.Add(this.title);
+            TextBuffer.Add(this.title);          
         }
 
         public Item GetItem(string itemName)
@@ -91,6 +98,20 @@ namespace Twdnd
         #endregion
 
         #region private methods
+        private string GetRoomDescText()
+        {
+            string message = "Room Description:";
+            string underline = "";
+            underline = underline.PadLeft(message.Length, '-');
+            return message + "\n" + underline;
+        }
+        private string GetPlayerText()
+        {
+            string message = "Player Text:";
+            string underline = "";
+            underline = underline.PadLeft(message.Length, '-');
+            return "\n" + message + "\n" + underline;
+        }
         private string GetItemList()
         {
             string itemString = "";

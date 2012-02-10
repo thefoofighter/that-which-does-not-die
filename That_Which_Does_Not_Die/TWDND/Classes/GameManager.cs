@@ -12,7 +12,11 @@ namespace Twdnd
         {
             Console.Clear();
             Console.WriteLine();
-            Console.WriteLine(TextUtils.WordWrap("**** The Hyperion Project ****\n\n\n",Console.WindowWidth));
+            Console.WriteLine(TextUtils.WordWrap("*********************************",Console.WindowWidth));
+            Console.WriteLine(TextUtils.WordWrap("**** That Which does not Die ****", Console.WindowWidth));
+            Console.WriteLine(TextUtils.WordWrap("*********************************\n\n", Console.WindowWidth));
+
+            Console.WriteLine(TextUtils.WordWrap("Text Based Zombie Survival", Console.WindowWidth));
 
             Console.WriteLine("\nNote: You may type 'help' at any point to see a list of useable commands");
             Console.WriteLine("\nPress a key to begin.");

@@ -9,6 +9,7 @@ namespace Twdnd
     {
         private static int posX;
         private static int posY;
+        
 
         private static List<Item> inventoryItems;
         private static int moves = 0;
@@ -39,7 +40,7 @@ namespace Twdnd
             get { return weightCapacity; }
             set { weightCapacity = value; }
         }
-
+       
         public static int InventoryWeight
         {
             get
@@ -146,7 +147,7 @@ namespace Twdnd
             items += "\n\nTotal Wt: " + Player.InventoryWeight + " / " + Player.WeightCapacity;
             TextBuffer.Add(message + "\n" + underline + items);
         }
-
+     
         public static Room GetCurrentRoom()
         {
             return Level.Rooms[posX, posY];

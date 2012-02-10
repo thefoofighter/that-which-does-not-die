@@ -20,6 +20,6 @@ namespace Twdnd
             {
                 CommandProcessor.ProcessCommand(Console.ReadLine());
             }
-        }
+        }       
     }
 }
