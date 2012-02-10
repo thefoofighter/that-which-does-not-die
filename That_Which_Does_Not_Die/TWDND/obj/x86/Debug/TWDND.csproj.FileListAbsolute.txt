@@ -5,3 +5,8 @@ C:\Users\Cathal\Documents\Visual Studio 2010\Projects\That_Which_Does_Not_Die\Hy
 C:\Users\Cathal\Documents\Visual Studio 2010\Projects\That_Which_Does_Not_Die\Hyperion\obj\x86\Debug\Hyperion.pdb
 C:\Users\Cathal\Documents\Visual Studio 2010\Projects\That_Which_Does_Not_Die\TWDND\obj\x86\Debug\Hyperion.exe
 C:\Users\Cathal\Documents\Visual Studio 2010\Projects\That_Which_Does_Not_Die\TWDND\obj\x86\Debug\Hyperion.pdb
+C:\gitrepo\That_Which_Does_Not_Die\TWDND\obj\x86\Debug\Hyperion.exe
+C:\gitrepo\That_Which_Does_Not_Die\TWDND\obj\x86\Debug\Hyperion.pdb
+C:\gitrepo\That_Which_Does_Not_Die\TWDND\bin\Debug\Hyperion.exe
+C:\gitrepo\That_Which_Does_Not_Die\TWDND\bin\Debug\Hyperion.pdb
+C:\gitrepo\That_Which_Does_Not_Die\TWDND\obj\x86\Debug\ResolveAssemblyReference.cache

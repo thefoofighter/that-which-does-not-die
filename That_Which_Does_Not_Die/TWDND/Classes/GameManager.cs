@@ -47,7 +47,8 @@ namespace Twdnd
         //ApplyRules()
         public static void applyRules()
         {
-            if (Level.Rooms[0,0].GetItem("Red Ball") != null &&
+
+            /*if (Level.Rooms[0,0].GetItem("Red Ball") != null &&
                 Level.Rooms[1,0].GetItem("Blue Ball") != null &&
                 Level.Rooms[1,1].GetItem("Yellow Ball") != null &&
                 Level.Rooms[0,1].GetItem("Green Ball") != null)
@@ -66,7 +67,7 @@ namespace Twdnd
             if (Player.Moves > 10)
             {
                 EndGame("you died, you took too many moves to complete the game");
-            }
+            }*/
         }
     }
 }
